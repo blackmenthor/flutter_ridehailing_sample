@@ -1,0 +1,38 @@
+name: flutter_ride_hailing
+description: Ridehailing Flutter Application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  # Firebase related dependencies
+  firebase_core: ^1.4.0
+  firebase_auth: ^3.0.1
+  firebase_messaging: ^10.0.4
+  cloud_firestore: ^2.4.0
+
+  # Google Maps related dependencies
+  google_maps_flutter: ^2.0.6
+  location: ^4.3.0
+  geocoding: ^2.0.0
+  flutter_polyline_points: ^1.0.0
+
+  # Other dependencies
+  permission_handler: ^8.1.4+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true

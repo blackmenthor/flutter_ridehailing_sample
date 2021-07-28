@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "101941711331",
+    "project_id": "flutter-ridehailing-sample",
+    "storage_bucket": "flutter-ridehailing-sample.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101941711331:android:e92dbeaef61ee2404550d6",
+        "android_client_info": {
+          "package_name": "tech.arifandi.flutter_ride_hailing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101941711331-81i07bserhlva1fom25sjtj2jkehd66b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tech.arifandi.flutter_ride_hailing",
+            "certificate_hash": "66ba57253b62ed7c9d3615abfa4ca00698232d6a"
+          }
+        },
+        {
+          "client_id": "101941711331-ou9kbv4qdf4qk9vdq2ltejj6pd28rl3r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLGgjZ2HDoQ2Or2wQBdo1gPiz3z9c6Y1s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "101941711331-ou9kbv4qdf4qk9vdq2ltejj6pd28rl3r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
