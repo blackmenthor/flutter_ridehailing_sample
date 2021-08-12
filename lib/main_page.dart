@@ -1,6 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_ride_hailing/fcm.dart';
 import 'package:flutter_ride_hailing/idle/idle_page.dart';
 import 'package:flutter_ride_hailing/location/location_service.dart';
 import 'package:flutter_ride_hailing/login/login_page.dart';
@@ -79,6 +80,7 @@ class _MainPageState extends State<MainPage> {
             });
           }
           _locationService?.init();
+          initFirebaseMessaging(userId: user.uid);
         }
         if (mounted) setState(() {});
       });
