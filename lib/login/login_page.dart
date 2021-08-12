@@ -26,20 +26,16 @@ class _LoginPageState extends State<LoginPage> {
     setState(() {});
 
     try {
-      print('HIT!');
       UserCredential userCredential =
           await FirebaseAuth.instance.signInWithEmailAndPassword(
         email: _emailController.text,
         password: _passwordController.text,
       );
-      print('USER CREDENTIAL $userCredential');
     } on FirebaseAuthException catch (e) {
-      print('ERROR F $e');
       _loading = false;
       _errorText = e.message;
       setState(() {});
     } catch (e) {
-      print('ERROR $e');
       _loading = false;
       _errorText = e.toString();
       setState(() {});
